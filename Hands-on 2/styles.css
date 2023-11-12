@@ -1,0 +1,262 @@
+.col a {
+    text-decoration: none;
+    color: #02025a;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar span {
+    margin-left: 20%;
+}
+
+.navbar ul,
+.dropdown-toggle {
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.navbar ul li a {
+    margin-left: 40px;
+    color: #02025a;
+    font-size: 20px;
+}
+
+.carousel-caption {
+    left: 50px;
+    top: 20%;
+    width: 700px;
+    text-align: left;
+}
+
+.carousel-caption p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.para {
+    font-size: 40px;
+    color: #3465ce;
+    font-weight: lighter;
+}
+
+.bg-overlay {
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.square {
+    width: 500px;
+    height: 390px;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    background: rgba(0, 0, 75, 0.8);
+    border-radius: 10px;
+}
+
+.square {
+    color: white;
+    padding: 40px;
+}
+
+.square p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: aqua;
+    cursor: pointer;
+}
+
+.cs-image {
+    padding: 30px;
+}
+
+.cs-image img {
+    height: 350px;
+    width: 500px;
+    position: relative;
+}
+
+.cs-image section {
+    background-color: rgba(2, 2, 90, 0.7);
+    border-radius: 5px;
+    width: 500px;
+    color: #fff;
+    transform: translate(0px, -120px);
+    position: absolute;
+}
+
+.cs-image section:hover {
+    transform: translate(0px, -280px);
+    height: 280px;
+}
+
+.card {
+    margin: 0px 2%;
+    padding-bottom: 30px;
+    margin-bottom: 4%;
+    border-radius: 0;
+    border: 0;
+    width: 30%;
+}
+
+.card-title {
+    color: #2672cf;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.card-text {
+    color: #02025a;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.poster section {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 19px;
+}
+
+.col-6 {
+    padding-bottom: 25px;
+}
+
+.col-6 .form-control {
+    height: 70px;
+}
+
+#svg {
+    margin-right: 30px;
+}
+
+.icons {
+    align-self: center;
+    margin-left: 10%;
+}
+
+footer {
+    color: #02025a;
+}
+
+footer h4 {
+    color: #2184dd;
+}
+
+.container .col-9 .row .col-3 {
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel-item .carousel-caption h1 {
+        font-size: 20px;
+        width: 35%;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption {
+        top: 10%;
+        left: 8% !important;
+    }
+
+    .para p {
+        font-size: 25px;
+    }
+
+    .cs-image {
+        padding: 0px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+    .carousel-item .carousel-caption h1 {
+        font-size: 24px;
+        width: 50%;
+    }
+
+    .carousel-item .carousel-caption p {
+        width: 40%;
+        font-size: 12px;
+    }
+
+    .carousel-caption {
+        top: 15% !important;
+        left: 40px !important;
+    }
+
+    .para p {
+        font-size: 35px;
+    }
+
+    .cs-image {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .navbar span {
+        margin-left: 10%;
+    }
+
+    .poster img {
+        object-fit: cover;
+        width: 35%;
+    }
+
+    #svg {
+        margin-right: 10px;
+    }
+
+    .icons {
+        margin-left: 5%;
+    }
+
+    .square {
+        width: 60%;
+    }
+
+    .carousel-item img {
+        object-fit: contain;
+        width: 100%;
+        height: 50%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+        width: 60%;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+        width: 60%;
+    }
+
+    .cs-image img {
+        height: 350px;
+        width: 400px;
+    }
+
+    .cs-image section {
+        width: 400px;
+    }
+}
